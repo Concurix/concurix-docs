@@ -23,9 +23,7 @@ Then, in the beginning of your server code, before you `require` any modules you
 Include your API key. <!-- TODO: How? -->
 
 ```
-var cx = require("concurix-monitor")(
-  // TODO: add initialization / config code here
-);
+var cx = require("concurix-monitor")({accountKey: <your account key>});
 cx.start();
 ```
 

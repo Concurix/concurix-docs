@@ -8,21 +8,21 @@ Once you have registered, you will be taken to the [manage projects](http://conc
 
 ## Adding Concurix monitoring to your Node.js project
 
-Add the `concurix` module to your project:
+> You can set up your own copy of our example project by checking out the [Concurix Express Example](https://github.com/Concurix/express_example)
+
+Add the `concurix-monitor` module to your project:
 
 ```bash
-$ npm install --save concurix
+$ npm install --save concurix-monitor
 ```
 
 Then, in the beginning of your server code, before you `require` any modules you wish to monitor, initialize and start the Concurix monitor.
 
 Include your API key.
 
-```javascript
-var concurix = require("concurix")({
-  accountKey: "<Your Account Key>",
-  email: "your@email.com"  // replace with your email address to get support
-})
+```
+var cx = require("concurix-monitor")({accountKey: <your account key>});
+cx.start();
 ```
 
 This wraps the `require` function to add monitoring to any modules that are subsequently `require`d.

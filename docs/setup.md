@@ -2,8 +2,6 @@
 
 ## Creating an account
 
-If you want to see an example of how Concurix works without having to creating an account, you can monitor our example Express app at http://concurix.com/demo.
-
 To create an account for Concurix, go to http://concurix.com/plans and follow the instructions for the product you wish to buy. 
 
 Once you have registered, you will be taken to the [manage projects](http://concurix.com/manage_projects) page to configure your initial project and get an account key.

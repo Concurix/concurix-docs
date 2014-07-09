@@ -16,7 +16,7 @@ $ npm install --save concurix
 
 Then, in the beginning of your server code, before you `require` any modules you wish to monitor, initialize and start the Concurix monitor.
 
-Include your API key. <!-- TODO: How? -->
+Include your API key.
 
 ```javascript
 var concurix = require("concurix")({
